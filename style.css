@@ -26,7 +26,7 @@ body {
 }
 
 .brand-title {
-    font-size: 160%;
+    font-size: 150%;
     font-weight: 500;
     margin: 4vh;
     text-transform: uppercase;
@@ -44,6 +44,37 @@ body {
     text-decoration: none;
     font-size: 110%;
     color: #fff;
-    padding: 2vh;
+    padding: 4vh;
     display: block;
+}
+
+#hero-text {
+    color:#fff;
+    margin-top: 50vh;
+    margin-left: 4vh;
+}
+
+#hero-text h1 {
+    font-size: 400%;
+    font-weight: 300;
+    display: flex;
+    width: 70%;
+    padding-bottom: 1vh;
+}
+
+#hero-text h4 {
+    font-size: 150%;
+    font-weight: 300;
+    display: flex;
+    width: 70%;
+    padding-bottom: 3vh;
+}
+
+#hero-text a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
+    background-color: #E63946;
+    padding: 1.5vh 3vh 1.5vh 3vh;
+    border-radius: .5vh 0 .5vh 0;
 }
