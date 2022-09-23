@@ -178,3 +178,29 @@ background-color: rgb(250, 250, 250);
     #second-h2 {
         padding-top: 12vh;
     }
+
+
+    #graphic {
+        position: absolute;
+        left: 4vh;
+        top: 210vh;
+        width: 20vh;
+        height: 20vh;
+        display: flex;
+    }
+    /* SECTION 3 */
+
+    #sec-3 {
+        width: 100%;
+        height: 100vh;
+        background-color: #535353;
+        display: flex;
+    }
+
+    #text {
+        color: #fff;
+        display: flex;
+        margin: 15vh 0 0 4vh;
+        flex-direction: column;
+        width: 50%;
+    }
