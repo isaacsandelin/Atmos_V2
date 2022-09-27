@@ -196,20 +196,18 @@ body {
 
 #sec-3 {
     width: 100%;
-    height: 120vh;
-    background-color: #0d0d0d;
+    height: 60vh;
+    background-color: #00050e;
     display: flex;
 }
 
 #text {
     color: #fff;
-    height: 120vh;
+    float: left; 
     display: flex;
-    margin: 0 0 0 15vh;
     flex-direction: column;
-    width: 50%;
     justify-content: center;
-    float: left;
+    margin-left: 15vh;
 }
 
 #text h2 {
@@ -227,21 +225,18 @@ body {
 }
 
 #playlist {
-    width: 50%;
-    height: 120vh;
-    display: flex;
     float: right;
-    background-color: #0d0d0d;
+    display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    flex-direction: row;
     justify-content: center;
-    column-count: 3;
+    align-content: center;
     margin-right: 15vh;
 }
 
 #playlist img {
-    width: 25vh;
-    height: 25vh;
+    width: 15vh;
+    height: 15vh;
     padding: 1vh;
 }
 
@@ -256,7 +251,7 @@ body {
 #sec-4 {
     width: 100%;
     height: 100vh;
-    background-color: #00050e;
+    background-color: #0d0d0d;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -265,9 +260,14 @@ body {
 
 }
 
+.fa-check {
+    color: #E63946;
+    margin-right: .5vh;
+}
+
 #price-1 {
 
-    width: 25%;
+    width: 30%;
     height: 50vh;
     border: 2px solid #fff;
     display: flex;
@@ -285,17 +285,25 @@ body {
 
 #price-1 ul {
     color: #fff;
-    margin-top: 7vh;
+    margin-top: 6vh;
     list-style: none;
+    padding-bottom: 8vh;
 }
 
 #price-1 li {
-    padding-top: 2vh;
+    padding-top: 4vh;
+}
+
+#price-1 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #E63946;
+    padding: 1vh 4vh 1vh 4vh;
 }
 
 #price-2 {
 
-    width: 25%;
+    width: 30%;
     height: 50vh;
     border: 2px solid #fff;
     display: flex;
@@ -307,12 +315,12 @@ body {
     text-transform: uppercase;
     letter-spacing: .5vh;
     margin: 0 auto;
-    padding-top: 2vh;
+    padding-top:4vh;
 }
 
 #price-3 {
 
-    width: 25%;
+    width: 30%;
     height: 50vh;
     border: 2px solid #fff;
     display: flex;
