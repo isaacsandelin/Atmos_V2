@@ -198,7 +198,9 @@ body {
     width: 100%;
     height: 120vh;
     background-color: #19293a;
+
     display: flex;
+    flex-direction: column;
 }
 
 #sec-3 h2 {
@@ -207,4 +209,69 @@ body {
 
     margin: 0 auto;
     padding-top: 10vh;
+}
+
+#blocks {
+    width: 100%;
+    background-color: #2685E3;
+    height: 30vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#a {
+    width: 40vh;
+    height: 20vh;
+    background-color: antiquewhite;
+
+    margin: 4vh;
+}
+#b {
+    width: 40vh;
+    height: 20vh;
+    background-color: rgb(83, 61, 32);
+
+    margin: 4vh;
+}
+#c {
+    width: 40vh;
+    height: 20vh;
+    background-color: rgb(36, 186, 121);
+
+    margin: 4vh;
+}
+
+#blocks2 {
+    width: 100%;
+    background-color: #144d85;
+    height: 30vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#d {
+    width: 40vh;
+    height: 20vh;
+    background-color: rgb(144, 37, 123);
+
+    margin: 4vh;
+}
+#e {
+    width: 40vh;
+    height: 20vh;
+    background-color: rgb(10, 131, 139);
+
+    margin: 4vh;
+}
+#f {
+    width: 40vh;
+    height: 20vh;
+    background-color: rgb(186, 84, 36);
+
+    margin: 4vh;
 }
