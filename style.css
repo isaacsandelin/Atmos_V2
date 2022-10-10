@@ -570,15 +570,63 @@ button {
 
 #hero4 {
     width: 100%;
-    height: 10vh;
-    background-color: #00030E;
+    height: 100vh;
+    background: url(./images/Playerullscreen.png) no-repeat center center;
+    background-size: cover;
 }
 
-#cross {
+#feature {
     width: 100%;
-    height: 90vh;
-    background: url(./images/PlayerFullscreen.png) no-repeat center center;
-    background-size: cover;
+    height: 50vh;
+    background-color: #00030E;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-left:10vh;
+    padding-right: 10vh;
+}
+
+#disc {
+    width: 26%;
+    height: 30vh;
+    background-color: #2D282E;
+    border-radius: 2vh;
+    border: 2px solid #595959;
+}
+
+#play {
+    width: 26%;
+    height: 30vh;
+    background-color: #2D282E;
+    border-radius: 2vh;
+    border: 2px solid #595959;
+}
+
+#control {
+    width: 26%;
+    height: 30vh;
+    background-color: #2D282E;
+    border-radius: 2vh;
+    border: 2px solid #595959;
+}
+
+
+#disc:hover, #play:hover, #control:hover {
+    border-radius: 1vh;
+}
+
+#feature div > h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#desc {
+    width: 100%;
+    height: 100vh;
+    background-color: #00030E;
 }
 
 /* FOOTER */
