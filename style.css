@@ -569,141 +569,17 @@ button {
 /* SOLUTION */
 
 #hero4 {
-    background-color: #00030E;
     width: 100%;
     height: 10vh;
-}
-
-#solution {
-    width: 100%;
-    height: 60vh;
     background-color: #00030E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-#left-sol {
-    color: #fff;
-}
-
-#right-sol {
-    width: 20%;
-    height: 50vh;
+#cross {
+    width: 100%;
+    height: 90vh;
+    background: url(./images/PlayerFullscreen.png) no-repeat center center;
     background-size: cover;
-    float: right;
 }
-
-#video1 {
-    width: 70vh;
-    height: 70vh;
-    padding-bottom: 20vh;
-}
-
-#features {
-    width: 100%;
-    height: 30vh;
-    background-color: #00030E;
-    display: flex;
-    color: #fff;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-#features p {
-    padding-top: 2vh;
-    font-weight: 500;
-    color: #d8d8d8;
-}
-
-#discover2 {
-    width: 37vh;
-    height: 30vh;
-}
-
-#play {
-    width: 37vh;
-    height: 30vh;
-}
-
-#control {
-    width: 37vh;
-    height: 30vh;
-}
-
-.fa-rectangles-mixed {
-    color: #2685E3;
-    font-size: 150%;
-    padding-bottom: 2vh;
-}
-
-.fa-globe {
-    color: #2685E3;
-    font-size: 150%;
-    padding-bottom: 2vh;
-}
-
-.fa-play {
-    color: #2685E3;
-    font-size: 150%;
-    padding-bottom: 2vh;
-}
-
-#features2 {
-    width: 100%;
-    height: 70vh;
-    background-color: #00030E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#features2 h2 {
-    color: #fff;
-}
-
-#features2 h4 {
-    color: #fff;
-}
-
-#video2 {
-    width: 70vh;
-    height: 70vh;
-}
-
-
-
-#features3 {
-    width: 100%;
-    height: 30vh;
-    background-color: #00030E;
-    display: flex;
-    color: #fff;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-#features3 p {
-    padding-top: 2vh;
-    font-weight: 500;
-    color: #d8d8d8;
-}
-
-#phone {
-    width: 37vh;
-    height: 30vh;
-}
-
-#tablet {
-    width: 37vh;
-    height: 30vh;
-}
-
-#computer {
-    width: 37vh;
-    height: 30vh;
-}
-
 
 /* FOOTER */
 footer {
@@ -739,6 +615,10 @@ footer a {
 footer h6 {
     color: #b0b0b0;
 }
+
+
+
+
 
 /* MEDIA QUERIES */
 
